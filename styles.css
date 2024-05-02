@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #1f2937;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.Logo{
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+ul{
+    list-style-type: none;
+    padding-right: 10px;
+}
+.section{
+    display: flex;
+}
+#one{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #f9faf8;
+}
+.websiteText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.firstTitle{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.fillerText{
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+#two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#three{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#four{
+
+}
+.footer{
+    background-color:#1f2937;
+    text-align: center;
+    color: #f9faf8;
+    height: 50px;
+    padding: 5px;
+}
+
+.item{
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+}
+
+.menu{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.secondTitle{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.author{
+    font-weight: bold;
+    text-align: end;
+    font-size: 20px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
